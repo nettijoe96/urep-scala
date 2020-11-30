@@ -164,6 +164,13 @@ http_jar(
     sha256 = "307d61bbbc4e6ed33881646f23140ac73d71a508452abdbb8da689e64a1e4d93"
 )
 
+http_jar(
+    name = "ipv6_jar",
+    url = "https://repo1.maven.org/maven2/com/googlecode/java-ipv6/java-ipv6/0.16/java-ipv6-0.16.jar",
+    sha256 = "71c2a96ec9ab8ae832fc2491aad3dc1036faf73a5cc499e93746a7fc76cdccb0"
+)
+
+
 new_git_repository(name = "rediscala",
                    remote = "https://github.com/itdaniher/rediscala.git",
                    branch = "master",
