@@ -1,7 +1,6 @@
 import com.urepscala.mylib._
 import com.urepscala.a.A
 import com.urepscala.ipv6_test.IPv6_test
-//import com.googlecode.ipv6.IPv6Address
 
 
 object Main {

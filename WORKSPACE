@@ -170,6 +170,12 @@ http_jar(
     sha256 = "71c2a96ec9ab8ae832fc2491aad3dc1036faf73a5cc499e93746a7fc76cdccb0"
 )
 
+# http_jar(
+#     name = "macwire_jar",
+#     url = "https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.11/2.3.0/macros_2.11-2.3.0-sources.jar",
+#     sha256 = "f8bff499305d6922a6a51674eda1a9c882ffb4c644f9d186d41f100c14934130"
+# )
+
 
 new_git_repository(name = "rediscala",
                    remote = "https://github.com/itdaniher/rediscala.git",

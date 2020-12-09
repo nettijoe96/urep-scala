@@ -20,6 +20,11 @@ dependencies:
       lang: scala
       version: "0.7.1"
 
+  com.softwaremill.macwire:
+    macros_2.11:
+      lang: scala/unmangled
+      version: "2.3.0"
+
   com.typesafe:
     config:
       lang: java
