@@ -40,6 +40,14 @@ dependencies:
       lang: scala
       version: "10.1.11"
 
+  com.typesafe.play:
+    play-json_2.11:
+      lang: scala/unmangled
+      version: "2.5.18"
+    play_2.11:
+      lang: scala/unmangled
+      version: "2.5.18"
+
   de.heikoseeberger:
     akka-http-circe:
       lang: scala
@@ -79,6 +87,11 @@ dependencies:
     parboiled:
       lang: scala
       version: "2.0.1"
+
+  org.reactivemongo:
+    play2-reactivemongo_2.12:
+      lang: scala/unmangled
+      version: "0.12.4"
 
   org.scala-lang:
     scalap:
