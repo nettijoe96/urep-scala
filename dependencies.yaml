@@ -75,6 +75,11 @@ dependencies:
       lang: scala
       version: "2.0.1"
 
+  org.reactivemongo:
+    reactivemongo-bson-macros_2.11:
+      lang: scala/unmangled
+      version: "0.12.4"
+
   org.scala-lang:
     scalap:
       lang: java
@@ -114,6 +119,25 @@ dependencies:
     scalaz-core:
       lang: scala
       version: "7.3.2"
+
+com.typesafe.play:
+  play_2.12:
+    lang: scala/unmangled
+    version: "2.5.18"
+  play-json_2.12:
+    lang: scala/unmangled
+    version: "2.5.18"
+  play-ws_2.12:
+    lang: scala/unmangled
+    version: "2.5.18"
+  play-test_2.12:
+    lang: scala/unmangled
+    version: "2.5.18"
+
+org.reactivemongo:
+  play2-reactivemongo_2.12:
+    lang: scala/unmangled
+    version: "0.12.4"
 
   org.typelevel:
     cats:

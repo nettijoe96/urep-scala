@@ -1,4 +1,5 @@
 import com.urepscala.mylib._
+import common.formatter.MongoObjectIdFormatter
 
 object Main {
 

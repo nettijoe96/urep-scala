@@ -10,7 +10,7 @@ scala_binary(
             "@third_party//3rdparty/jvm/org/typelevel:cats_effect",
             "@third_party//3rdparty/jvm/org/typelevel:squants",
             "@rediscala//:rediscala",
-            "//src:mylib",],
+            "//src/main:mylib",],
     main_class = "ammonite.Main"
 )
 
